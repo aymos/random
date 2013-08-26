@@ -35,7 +35,6 @@ if not os.access(filename,os.R_OK):
 		sys.exit(1)
 
 # valid path
-
 x=len(filename.split('/'))
 
 for root, dir, files in os.walk(filename):
